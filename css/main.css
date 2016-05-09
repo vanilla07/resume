@@ -152,8 +152,8 @@ header {
     position: fixed;
     top: 0;
     z-index: 99;
-    background-color: rgba(1, 1, 1, 0.3);
-    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(1, 1, 1, 0.4);
+    font-family: 'Open Sans', sans-serif;
 }
 
 header.sticky .navbar {
@@ -287,7 +287,7 @@ section#about ul.profile-infos .title {
     display: block;
     width: 120px;
     float: left;
-    color: #333333;
+    color: #333;
     font-size: 12px;
     line-height: 20px;
     text-transform: uppercase;
@@ -477,9 +477,32 @@ footer .tooltip.bottom .tooltip-arrow {
 }
 
 /* small devices */
+@media (max-width: 795px) {
+    .navbar-inverse .navbar-nav > li > a, 
+    .navbar-inverse .navbar-brand {
+        padding: 18px;
+    }
+}
 @media (max-width: 768px) {
     .timeline-arrow i {
         display: none;
+    }
+
+    .navbar-inverse .navbar-brand {
+        padding: 15px;
+    }
+
+    header.sticky .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #777;
+    }
+
+    header.sticky .navbar-inverse .navbar-toggle {
+        border-color: #777;
+    }
+
+    header.sticky .navbar-inverse .navbar-toggle:focus,
+    header.sticky .navbar-inverse .navbar-toggle:hover {
+        background-color: #ddd;
     }
 
     div.content {
@@ -488,5 +511,8 @@ footer .tooltip.bottom .tooltip-arrow {
 
     .thumbnail>img {
         max-width: 50%;
+    }
+    section#projects .thumbnail>img {
+        max-width: 90%;
     }
 }
