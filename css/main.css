@@ -33,6 +33,10 @@ ul, ol {
     font-size: 12px;
 }
 
+.break {   
+    word-break: break-all;
+}
+
 .timeline-arrow i {
     display: block;
     position: absolute;
@@ -57,6 +61,28 @@ ul, ol {
     top: 40px;
 }
 
+.dot {
+    width: 8px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #f6a202;
+}
+
+.dot-left {
+    top: 93px;
+    left: 0px;
+    margin-left: -4px;
+}
+.dot-right {
+    top: 43px;
+    right: 0px;
+    margin-right: -4px;
+}
+
 .timeline-bar {
     content: '';
     width: 4px;
@@ -73,6 +99,18 @@ ul, ol {
     position: relative;
 }
 
+.thumbnail {
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
 
 /* button back to top */
 div#btn-up {
@@ -442,5 +480,13 @@ footer .tooltip.bottom .tooltip-arrow {
 @media (max-width: 768px) {
     .timeline-arrow i {
         display: none;
+    }
+
+    div.content {
+        padding-top: 100px;
+    }
+
+    .thumbnail>img {
+        max-width: 50%;
     }
 }
