@@ -273,6 +273,13 @@ section#about .panel-footer a.links {
     display: inline-block;
     margin-left: 15px;
 }
+section#about .panel-footer a.links i{
+    display: none;
+}
+section#about .panel-footer a.links span{
+    display: inline;
+}
+
 section#about .panel-footer {
     line-height: 60px;
     height: 60px;
@@ -484,7 +491,13 @@ footer .tooltip.bottom .tooltip-arrow {
     }
 }
 @media (max-width: 768px) {
-    .timeline-arrow i {
+    .container {
+        padding-left: 0; 
+        padding-right: 0;
+    }
+
+    .timeline-arrow i,
+    .dot {
         display: none;
     }
 
@@ -512,6 +525,15 @@ footer .tooltip.bottom .tooltip-arrow {
     .thumbnail>img {
         max-width: 50%;
     }
+
+    section#about .panel-footer a.links i{
+        display: inline-block;
+        font-size: 18px;
+    }
+    section#about .panel-footer a.links span{
+        display: none;
+    }
+
     section#projects .thumbnail>img {
         max-width: 90%;
     }
