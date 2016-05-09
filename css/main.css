@@ -491,10 +491,6 @@ footer .tooltip.bottom .tooltip-arrow {
     }
 }
 @media (max-width: 768px) {
-    .container {
-        padding-left: 0; 
-        padding-right: 0;
-    }
 
     .timeline-arrow i,
     .dot {
