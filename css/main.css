@@ -237,8 +237,6 @@ div.content {
 .container {
     width: 100%;
     max-width: 960px;
-    padding-left: 10px;
-    padding-right: 10px;
     margin: 0 auto;
 }
 .date {
@@ -484,7 +482,7 @@ footer .tooltip.bottom .tooltip-arrow {
 }
 
 /* small devices */
-@media (max-width: 795px) {
+@media (max-width: 810px) {
     .navbar-inverse .navbar-nav > li > a, 
     .navbar-inverse .navbar-brand {
         padding: 18px;
