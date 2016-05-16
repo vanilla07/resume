@@ -343,6 +343,10 @@ section#education .panel-body .education {
     line-height: normal;
     vertical-align: middle;
 }
+/* PROJECTS */
+.project {
+    min-height: 395px;
+}
 
 
 /* end content */
