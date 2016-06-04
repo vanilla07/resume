@@ -14,13 +14,6 @@ $(window).scroll(function() {
 	else{
 		$('#btn-up').fadeIn();
 	}
-
-	if($(window).scrollTop()<550){
-		$('#nav2').fadeOut();
-	}
-	else{
-		$('#nav2').fadeIn();
-	}
 });
 
 $(function () {
