@@ -27,6 +27,10 @@ ul, ol {
     list-style: none;
 }
 
+.retrait {
+    padding-left: 40px;
+}
+
 .btn {
     font-weight: bold;
     text-transform: uppercase;
@@ -51,13 +55,13 @@ ul, ol {
 .arrow-left i {
     border-left: 1px solid rgb(204, 204, 204);
     border-top: 1px solid rgb(204, 204, 204);
-    left: 8px;
+    left: 7px;
     top: 90px;
 }
 .arrow-right i {
     border-right: 1px solid rgb(204, 204, 204);
     border-bottom: 1px solid rgb(204, 204, 204);
-    right: 8px;
+    right: 7px;
     top: 40px;
 }
 
@@ -327,6 +331,7 @@ section#skills h4{
 /*EXPERIENCE AND EDUCATION*/
 section#experience .panel,
 section#education .panel {
+    border: none;
     border-bottom: 5px solid #f6a202;
 }
 /*EDUCATION*/
