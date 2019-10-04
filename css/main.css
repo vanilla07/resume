@@ -27,6 +27,11 @@ ul, ol {
     list-style: none;
 }
 
+strong {
+    color: #f6a202;
+    font-weight: bold;
+}
+
 .retrait {
     padding-left: 40px;
 }
