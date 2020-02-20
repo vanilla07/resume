@@ -1,3 +1,3 @@
 # My Online resume
 
-http://jchevalier.pro/
+http://www.joannechevalier.com/
